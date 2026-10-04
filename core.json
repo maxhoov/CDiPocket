@@ -1,0 +1,36 @@
+{
+    "core": {
+        "magic": "APF_VER_1",
+        "metadata": {
+            "platform_ids": [
+                "cdi"
+            ],
+            "shortname": "CDi",
+            "description": "Philips CD-i Mono I base hardware",
+            "author": "maxhoov",
+            "url": "https://github.com/Slamy/CDi_MiSTer",
+            "version": "0.1.0",
+            "date_release": "2026-10-04"
+        },
+        "framework": {
+            "target_product": "Analogue Pocket",
+            "version_required": "1.1",
+            "sleep_supported": false,
+            "dock": {
+                "supported": true,
+                "analog_output": false
+            },
+            "hardware": {
+                "link_port": false,
+                "cartridge_adapter": -1
+            }
+        },
+        "cores": [
+            {
+                "name": "default",
+                "id": 0,
+                "filename": "bitstream.rbf_r"
+            }
+        ]
+    }
+}

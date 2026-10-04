@@ -1,0 +1,465 @@
+{
+  "note": "Imported from the user's local checkouts; no upstream commit identity was available.",
+  "origins": [
+    {
+      "name": "CDi_MiSTer",
+      "directory": "../CDi_MiSTer",
+      "project_url": "https://github.com/Slamy/CDi_MiSTer"
+    },
+    {
+      "name": "core-template-1.3.0",
+      "directory": "../core-template-1.3.0",
+      "project_url": "https://github.com/open-fpga/core-template"
+    },
+    {
+      "name": "PicoRV32",
+      "project_url": "https://github.com/YosysHQ/picorv32",
+      "note": "Downloaded main/picorv32.v on 2026-10-03; identity pinned by SHA-256."
+    }
+  ],
+  "retained_sources": [
+    {
+      "local": "src/fpga/core/cdi/6805.vhd",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/6805.vhd",
+      "upstream_sha256": "38fdddff248a6d5f24c782a082d3fec083969a870932c52f04034d9adae2532b",
+      "local_sha256": "38fdddff248a6d5f24c782a082d3fec083969a870932c52f04034d9adae2532b",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/audiodecoder.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/audiodecoder.sv",
+      "upstream_sha256": "e38a742256e0b55fe8aeafec8218b0cb41be797ab15fd26cf29150430871a1c3",
+      "local_sha256": "e38a742256e0b55fe8aeafec8218b0cb41be797ab15fd26cf29150430871a1c3",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/audiofifo.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/audiofifo.sv",
+      "upstream_sha256": "120d92dfd8a30ec6c48de352b42583100ba0e0f1cd32196bb4b5ae70ed295e17",
+      "local_sha256": "120d92dfd8a30ec6c48de352b42583100ba0e0f1cd32196bb4b5ae70ed295e17",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/audioplayer.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/audioplayer.sv",
+      "upstream_sha256": "e4bbc854a7315de3e2e68f837d41ed103616bf9f95ec35756099e2cb44d14530",
+      "local_sha256": "e4bbc854a7315de3e2e68f837d41ed103616bf9f95ec35756099e2cb44d14530",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/audiotypes.svh",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/audiotypes.svh",
+      "upstream_sha256": "2b3709dac9a3f96d2c45ef6001ef31302ae0a4d5b95e7574f8aeb20ab36a1286",
+      "local_sha256": "2b3709dac9a3f96d2c45ef6001ef31302ae0a4d5b95e7574f8aeb20ab36a1286",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/bus.svh",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/bus.svh",
+      "upstream_sha256": "c977309099b7a29c88d79aac06afecdc823da1a62d321dc8b8d1d8d8cc0942a3",
+      "local_sha256": "c977309099b7a29c88d79aac06afecdc823da1a62d321dc8b8d1d8d8cc0942a3",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/cdic.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/cdic.sv",
+      "upstream_sha256": "09cb17899232ad30e807d971e901c7078a2604a22404f0f5df0da16dbfe32916",
+      "local_sha256": "09cb17899232ad30e807d971e901c7078a2604a22404f0f5df0da16dbfe32916",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/cdic_clock_gen.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/cdic_clock_gen.sv",
+      "upstream_sha256": "1f526fd7e7159382976b08c7f7e4f80737bc6f1ab7f8ed5f60573b696e3d6bff",
+      "local_sha256": "c7cd8edffc398cda187c0ea6977152b3030344ca5f2543de1ccd1941ca63fdf6",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/cditop.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/cditop.sv",
+      "upstream_sha256": "f5c42bd9a2f93552e083d84c1aec192642fb2b4981c80f731cceb6340a76d107",
+      "local_sha256": "ddb64da4a895fb8dec9de48ec0c3fa6cd1a909aa8f1dd3d04340072c903d0008",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/clut_rle.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/clut_rle.sv",
+      "upstream_sha256": "53f756086f35f5f6adfe47a066fb32298cee100ea52c4f612637ae003c714cbc",
+      "local_sha256": "53f756086f35f5f6adfe47a066fb32298cee100ea52c4f612637ae003c714cbc",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/delta_yuv_decoder.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/delta_yuv_decoder.sv",
+      "upstream_sha256": "99e4789ef8db8b0ba1c6f70e8308f0e28587515c40997f1ae9a2fa10ff377b5f",
+      "local_sha256": "4401a42e162a645096ade7d9592632da86a1f2c74af44c774371bd7783ed5f55",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/display_file_reader.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/display_file_reader.sv",
+      "upstream_sha256": "ddba2b5c4d714992bce1126d3288ba1b0ffbf7757eb3d719e9cc22254295610f",
+      "local_sha256": "ddba2b5c4d714992bce1126d3288ba1b0ffbf7757eb3d719e9cc22254295610f",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/dual_ad7528.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/dual_ad7528.sv",
+      "upstream_sha256": "ef59a743f2c26f624c2f59b7b2a70d9b7cac8e15232821dc452d286f0d3ce28f",
+      "local_sha256": "064bfc87f345bb722bdcddb381f133a1302fe0503edf0e310c46ee121455048b",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/flag_cross_domain.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/flag_cross_domain.sv",
+      "upstream_sha256": "edd8b7cfa769ace784eab3195e751800162c5991710d97d00e7a203f3e14194e",
+      "local_sha256": "edd8b7cfa769ace784eab3195e751800162c5991710d97d00e7a203f3e14194e",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/hps_cd_sector_cache.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/hps_cd_sector_cache.sv",
+      "upstream_sha256": "292c6ba09efa1d7b483752163cedf8638ba9a282a6a01b9fbaa6b983912db24d",
+      "local_sha256": "292c6ba09efa1d7b483752163cedf8638ba9a282a6a01b9fbaa6b983912db24d",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/ica_dca_ctrl.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/ica_dca_ctrl.sv",
+      "upstream_sha256": "1b5c8059bbee7d46d3414bcc53660201cad4dc522575357cd23c64efaecf3016",
+      "local_sha256": "03ff8b1837e23439bf813823832e9e9d65522b7331ea0ad7980c25e7f2b3211f",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/mcd212.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/mcd212.sv",
+      "upstream_sha256": "43d79f88d6ac0bf9f6681c956623849991b71e551b00142de422f96fcec3bd51",
+      "local_sha256": "bb888e8f5dd265042e2db2250c41e2ed5146849e9cf57975c852ecd64dd8d287",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/mk48t08b.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/mk48t08b.sv",
+      "upstream_sha256": "06523d03110d5d75e0813e2ff7ad9d2422c62b016bc3ada695435f0efded5926",
+      "local_sha256": "8d94bd7511c3f8ae7a5fc8121bd4d4b31df7c828f65f02a2ab72a267e2ab92eb",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/resetdelay.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/resetdelay.sv",
+      "upstream_sha256": "2a09685d412390d8463c491d3a1efe219821d3261dbf3251b0a318e7ec5111ae",
+      "local_sha256": "2a09685d412390d8463c491d3a1efe219821d3261dbf3251b0a318e7ec5111ae",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/scc68070.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/scc68070.sv",
+      "upstream_sha256": "ed48cfcf954609a300242712a4962f34b5b28096fa4e95681ecca689fa334fff",
+      "local_sha256": "ed48cfcf954609a300242712a4962f34b5b28096fa4e95681ecca689fa334fff",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/sdram.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/sdram.sv",
+      "upstream_sha256": "4c647cbcaea9141f3fc7e5f06d266cb4d24a058c2afe2740c9129ca6dacf24e0",
+      "local_sha256": "63e4272baaa3130e5205b4995ccd300fbac400091add1f5dedb21ceeb9070435",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/servo_hle.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/servo_hle.sv",
+      "upstream_sha256": "77f1e61e778bc47b54195233a8591f9ee165e7405b08457f5a5253826e7ae067",
+      "local_sha256": "3252adf30ee833c057cdfd9f4a42060a258e9549d160c8c2078416881ea7343c",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/signal_cross_domain.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/signal_cross_domain.sv",
+      "upstream_sha256": "aa1b7aba311d5eadacc80fdac90c46b94dd3e568dfe3b40c1025b107232b17c3",
+      "local_sha256": "aa1b7aba311d5eadacc80fdac90c46b94dd3e568dfe3b40c1025b107232b17c3",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/tg68k/tg68dotc_verilog_wrapper.vhd",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/tg68k/tg68dotc_verilog_wrapper.vhd",
+      "upstream_sha256": "f60f563a82a8a8e2101ef4009edbe21a9bccd1f7be23e45c5ed8e84dbd014a6c",
+      "local_sha256": "f60f563a82a8a8e2101ef4009edbe21a9bccd1f7be23e45c5ed8e84dbd014a6c",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/tg68k/TG68K.vhd",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/tg68k/TG68K.vhd",
+      "upstream_sha256": "3bbc7164f9e92746da7c22fdb58cf6753e9ef6c04d1006200785679b92888e85",
+      "local_sha256": "3bbc7164f9e92746da7c22fdb58cf6753e9ef6c04d1006200785679b92888e85",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/tg68k/TG68K_ALU.vhd",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/tg68k/TG68K_ALU.vhd",
+      "upstream_sha256": "a697cdd468700d9979f2aaca8a9cbeb613e7ec33ebc67698083acf353b948036",
+      "local_sha256": "a697cdd468700d9979f2aaca8a9cbeb613e7ec33ebc67698083acf353b948036",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/tg68k/TG68K_Pack.vhd",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/tg68k/TG68K_Pack.vhd",
+      "upstream_sha256": "faf72174d49e07f3b79e67844845d9aba84359930588a44ed44efa92f4a87502",
+      "local_sha256": "faf72174d49e07f3b79e67844845d9aba84359930588a44ed44efa92f4a87502",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/tg68k/TG68KdotC_Kernel.vhd",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/tg68k/TG68KdotC_Kernel.vhd",
+      "upstream_sha256": "595245469a77e3cbdd5b3176be07e141ff5a218222ea0b62dcc06f4767395e7a",
+      "local_sha256": "595245469a77e3cbdd5b3176be07e141ff5a218222ea0b62dcc06f4767395e7a",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/u3090mg.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/u3090mg.sv",
+      "upstream_sha256": "406950ee9d2d108fe4aa23c968a6700a607213fc8e0923b9ef9b8b37f43b89e7",
+      "local_sha256": "406950ee9d2d108fe4aa23c968a6700a607213fc8e0923b9ef9b8b37f43b89e7",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/uart_rx.v",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/uart_rx.v",
+      "upstream_sha256": "b36a33a3bb145458a093364aafc0138901137a31691c7cce1996bf81a4569ae5",
+      "local_sha256": "b36a33a3bb145458a093364aafc0138901137a31691c7cce1996bf81a4569ae5",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/uart_tx.v",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/uart_tx.v",
+      "upstream_sha256": "ef4cde6c94b303388da3ed74fbfbb137453424f6ddc833510550193be3062f70",
+      "local_sha256": "ef4cde6c94b303388da3ed74fbfbb137453424f6ddc833510550193be3062f70",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/uc_68hc05.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/uc_68hc05.sv",
+      "upstream_sha256": "cf39d814b970013d53f097fb72c1676ce76b011fe3bef8d2c6c4c244d70c1587",
+      "local_sha256": "cf39d814b970013d53f097fb72c1676ce76b011fe3bef8d2c6c4c244d70c1587",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/video_timing.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/video_timing.sv",
+      "upstream_sha256": "a5d7d1cbc608781e58c0d2be94c36b2a3644b19bee3023870b02114597e8a787",
+      "local_sha256": "60b54f073a1f1518b785894438510ae66196f80a72406e80961ef8ab0c71e2fe",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/cdi/videofifo.sv",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/videofifo.sv",
+      "upstream_sha256": "5478873781961cca1257f94b7ebef522cfdbdd3a9de8926c3cb62acd7fee5b09",
+      "local_sha256": "5478873781961cca1257f94b7ebef522cfdbdd3a9de8926c3cb62acd7fee5b09",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/core/cdi/videotypes.svh",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "rtl/videotypes.svh",
+      "upstream_sha256": "5b84abba14a9702691290aaea2ff88b9a723fa46a308ebf39f1419350d553e1e",
+      "local_sha256": "5b84abba14a9702691290aaea2ff88b9a723fa46a308ebf39f1419350d553e1e",
+      "modified": false
+    },
+    {
+      "local": "LICENSE",
+      "origin": "CDi_MiSTer",
+      "upstream_path": "LICENSE",
+      "upstream_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "local_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/apf.qip",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/apf.qip",
+      "upstream_sha256": "94af53185dde4d51ef30e75bb1ec8df672126742af36399bd62f4efb3a84b26a",
+      "local_sha256": "94af53185dde4d51ef30e75bb1ec8df672126742af36399bd62f4efb3a84b26a",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/apf_constraints.sdc",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/apf_constraints.sdc",
+      "upstream_sha256": "18b72957181178b046c2f27711190cb426482edcd7b58fcda9cfea27e855dd2e",
+      "local_sha256": "18b72957181178b046c2f27711190cb426482edcd7b58fcda9cfea27e855dd2e",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/apf_top.v",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/apf_top.v",
+      "upstream_sha256": "6c24aa45a3dab52d8b86944cdd90330aa74cfdcd62e2d43e39d33d4791d173c7",
+      "local_sha256": "6c24aa45a3dab52d8b86944cdd90330aa74cfdcd62e2d43e39d33d4791d173c7",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/build_id.mif",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/build_id.mif",
+      "upstream_sha256": "3ef497ff9c6bd44ad96c936a2ee3bcf8e624f8b74ef4b37bedd10e98f0e91ee3",
+      "local_sha256": "9214047b9d9ae2874846011a830f2fe42b559c781eac29bbf93ae32b141aa582",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/apf/build_id_gen.tcl",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/build_id_gen.tcl",
+      "upstream_sha256": "6279533fec80081e3c91884e1cc5df853b2a716df0b573636147f3420aace996",
+      "local_sha256": "6279533fec80081e3c91884e1cc5df853b2a716df0b573636147f3420aace996",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/common.v",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/common.v",
+      "upstream_sha256": "c1615e2c6c12b111537f6ca11e826e5061eb91f405e349bdc649a17b48e24d4e",
+      "local_sha256": "c1615e2c6c12b111537f6ca11e826e5061eb91f405e349bdc649a17b48e24d4e",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/io_bridge_peripheral.v",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/io_bridge_peripheral.v",
+      "upstream_sha256": "fb9c13e0311ac6b01019898d0ca7786f370228380356fe618fc2b473f2add17d",
+      "local_sha256": "c9e88a8ccf57cc16234f7b84529b2651984803004833c35690627ff3bf3ca51b",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/apf/io_pad_controller.v",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/io_pad_controller.v",
+      "upstream_sha256": "70cda74af63d3baa53f87473e1d9e2d524ea305b299a3f832d6c1292771a305e",
+      "local_sha256": "70cda74af63d3baa53f87473e1d9e2d524ea305b299a3f832d6c1292771a305e",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/mf_datatable.qip",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/mf_datatable.qip",
+      "upstream_sha256": "8d4fac9c708f86c426e5241055d8000063e16dbe9b5c414f320a8b24c44a0632",
+      "local_sha256": "8d4fac9c708f86c426e5241055d8000063e16dbe9b5c414f320a8b24c44a0632",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/mf_datatable.v",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/mf_datatable.v",
+      "upstream_sha256": "e2cc2e33ccc22b9a8be3c426141848e0ea7800abb45ce55530eebe17dd23ffd7",
+      "local_sha256": "e2cc2e33ccc22b9a8be3c426141848e0ea7800abb45ce55530eebe17dd23ffd7",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/mf_ddio_bidir_12.qip",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/mf_ddio_bidir_12.qip",
+      "upstream_sha256": "f0ed4e73a07d734115bbde6501b43fe5878a7409f9b3b68bb4c7e0424b31b42e",
+      "local_sha256": "f0ed4e73a07d734115bbde6501b43fe5878a7409f9b3b68bb4c7e0424b31b42e",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/apf/mf_ddio_bidir_12.v",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/apf/mf_ddio_bidir_12.v",
+      "upstream_sha256": "31c8b62114d7bc916104a6199d919d9e2235a164aba518360b339867a08426aa",
+      "local_sha256": "31c8b62114d7bc916104a6199d919d9e2235a164aba518360b339867a08426aa",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/ap_core.qpf",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/ap_core.qpf",
+      "upstream_sha256": "a911d8909682cd12e9d963a88f106b816f5f737f7008d7ac8f6304de138825c9",
+      "local_sha256": "a911d8909682cd12e9d963a88f106b816f5f737f7008d7ac8f6304de138825c9",
+      "modified": false
+    },
+    {
+      "local": "src/fpga/ap_core.qsf",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/ap_core.qsf",
+      "upstream_sha256": "65d1b8989e6efa2e4d9cd361d03493a26dbda601a8fa9058b151c4fb7360acaf",
+      "local_sha256": "c65450a30ebb82caabf459438005714e7eef57b8e19c8568f71747ac5cb59684",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/core_bridge_cmd.v",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/core/core_bridge_cmd.v",
+      "upstream_sha256": "e6e0185218b3a63799db0f80085b0f4570c003c5f2197e8c9b8a1b1350f733fe",
+      "local_sha256": "d01e9dcc1fad30e89b6f8e6ff1037f867dbf80c64ce6fbe4d16488de72003c85",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/core_constraints.sdc",
+      "origin": "core-template-1.3.0",
+      "upstream_path": "src/fpga/core/core_constraints.sdc",
+      "upstream_sha256": "c0ffbe130cfcdd588a2ab32fe1a891ce2fa12ef1723a39d4ed1062b57acf90d7",
+      "local_sha256": "25f93c8173e4c3b8af8298428e029d0b160276f9801560a328c53a477e4ddbcb",
+      "modified": true
+    },
+    {
+      "local": "src/fpga/core/native_disc/picorv32.v",
+      "origin": "PicoRV32",
+      "upstream_path": "picorv32.v",
+      "download_url": "https://raw.githubusercontent.com/YosysHQ/picorv32/main/picorv32.v",
+      "upstream_sha256": "0836050971b3c6cdd28ac3b1e5719a67fb645161912bef1e472e63995ceb0622",
+      "local_sha256": "0836050971b3c6cdd28ac3b1e5719a67fb645161912bef1e472e63995ceb0622",
+      "modified": false,
+      "license": "ISC"
+    }
+  ],
+  "new_core_sources": [
+    "src/fpga/core/cdi/cdi_types.svh",
+    "src/fpga/core/core.qip",
+    "src/fpga/core/core_top.sv",
+    "src/fpga/core/native_disc/firmware.mif",
+    "src/fpga/core/pocket_memory.sv",
+    "src/fpga/core/pocket_native_disc.sv",
+    "src/fpga/core/pocket_platform_io.sv",
+    "src/fpga/core/pocket_support.sv"
+  ],
+  "new_disc_firmware_sources": [
+    "firmware/native_disc/disc.c",
+    "firmware/native_disc/disc.h",
+    "firmware/native_disc/link.ld",
+    "firmware/native_disc/main.c",
+    "firmware/native_disc/start.S"
+  ]
+}

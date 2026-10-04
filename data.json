@@ -1,0 +1,62 @@
+{
+    "data": {
+        "magic": "APF_VER_1",
+        "data_slots": [
+            {
+                "name": "CD-ROM CUE",
+                "id": 0,
+                "required": true,
+                "parameters": "0x8",
+                "deferload": true,
+                "extensions": [
+                    "cue"
+                ],
+                "size_maximum": 32768,
+                "address": "0x60000000"
+            },
+            {
+                "name": "System BIOS",
+                "id": 1,
+                "required": true,
+                "parameters": "0x8",
+                "deferload": true,
+                "filename": "cdi200.rom",
+                "size_exact": 524288,
+                "address": "0x10000000"
+            },
+            {
+                "name": "Slave MCU ROM",
+                "id": 2,
+                "required": true,
+                "parameters": "0x8",
+                "filename": "slave.rom",
+                "size_exact": 8192,
+                "address": "0x20000000"
+            },
+            {
+                "name": "NVRAM",
+                "id": 3,
+                "required": false,
+                "parameters": "0x24",
+                "nonvolatile": true,
+                "filename": "nvram.sav",
+                "extensions": [
+                    "sav"
+                ],
+                "size_exact": 8192,
+                "size_maximum": 8192,
+                "address": "0x40000000"
+            },
+            {
+                "name": "BIN stream",
+                "id": 4,
+                "required": false,
+                "parameters": "0x8",
+                "deferload": true,
+                "extensions": ["bin"],
+                "size_maximum": "0x40000000",
+                "address": "0x6001E000"
+            }
+        ]
+    }
+}
